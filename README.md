@@ -12,18 +12,13 @@ A sophisticated Retrieval-Augmented Generation (RAG) system that implements a co
 
 ## How to Run?
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd rag_tutorials/corrective_rag
-   ```
 
-2. **Install Dependencies**:
+1. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set Up API Keys**:
+2. **Set Up API Keys**:
    You'll need to obtain the following API keys:
    - [OpenAI API key](https://platform.openai.com/api-keys) (for embeddings)
    - [Anthropic API key](https://console.anthropic.com/settings/keys) (for Claude 4.5 sonnet as LLM)
@@ -36,12 +31,12 @@ A sophisticated Retrieval-Augmented Generation (RAG) system that implements a co
          - Qdrant API Key: Found in API Keys section
          - Qdrant URL: Your cluster URL (format: `https://xxx-xxx.aws.cloud.qdrant.io`)
 
-4. **Run the Application**:
+3. **Run the Application**:
    ```bash
    streamlit run corrective_rag.py
    ```
 
-5. **Use the Application**:
+4. **Use the Application**:
    - Upload documents or provide URLs
    - Enter your questions in the query box
    - View the step-by-step Corrective RAG process
@@ -56,3 +51,6 @@ A sophisticated Retrieval-Augmented Generation (RAG) system that implements a co
 - **OpenAI**: For document embeddings
 - **Tavily**: For web search capabilities
 - **Streamlit**: For the user interface
+
+Author:
+Anamika Dashore|GenAI|Machine Learning|MLOps
